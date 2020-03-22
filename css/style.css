@@ -1,0 +1,119 @@
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif !important;
+    background-color: #c6f776;
+}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=date], input[type=email] textarea {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 0.3rem;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=email]:focus, textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #c6f776;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    border-radius: 0.3rem;
+}
+
+button:hover {
+    background-color: #5f8e13;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    text-align: center;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+.card-signin {
+    border: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+    padding: 3rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.input-group {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 0.3rem;
+    margin: 5px 0 0 0;
+}
+.input-section {
+    margin: 5px 0 22px 0;
+}
+.fa, .fas, .far {
+    color: #5f8e13;
+    border-color: #5f8e13;;
+    position: relative !important;
+}
+
+.fa:hover, .fas:hover, .far:hover, .fa:focus, .fas:focus, .far:focus {
+  color: #91d622;
+  border-color: #91d622;;
+}
+
+#add-ingredient, #add-ingredient:hover, .delete, .delete:hover, #add-ingredient:focus, .delete:focus  {
+    background-color: transparent;
+    margin: auto auto auto 1rem;
+    border: none;
+}
+.small-button{
+   margin: 0; 
+   padding: 0.3rem;
+   width: auto;
+}
+.big-gold{
+    color: #F0C402;
+    font-size: 30px;
+}
+.small-gold{
+    color: #F0C402;
+}
